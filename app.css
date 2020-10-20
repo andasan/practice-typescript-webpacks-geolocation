@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin: 2rem auto;
+  z-index: 2;
+  background: rgba(0, 0, 0, .5);
+  padding: 20px;
+  border-radius: 10px;
+}
